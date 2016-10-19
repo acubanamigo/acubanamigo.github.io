@@ -1,0 +1,33 @@
+html * {
+    
+    box-sizing: border-box;
+    
+}
+
+*:before, *:after{
+    
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    
+    border-bottom:10px solid #333;
+    margin:50px auto;
+    background: white;
+    width 80%;
+    max-width: 800px;
+    min-width: 400px;
+    height:80%;
+    max-height: 400x;
+    min-height: 800;
+    padding:40px 20px;
+    
+}
+
+body
+{
+    
+background: #ADD8E6;
+font-family: monospace;
+}

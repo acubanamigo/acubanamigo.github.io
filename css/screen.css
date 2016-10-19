@@ -1,0 +1,102 @@
+/*Change the CSS box model*/
+html * {
+    
+    box-sizing: border-box;
+    
+}
+
+title 
+{
+    
+    
+    
+}
+*:before, *:after{
+    
+    box-sizing: border-box;
+}
+
+p.headlines
+{
+    
+    background-color: dodgerblue; 
+    text-align: center;
+    height: 27px;
+    padding-top: 4px;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+p.forecast{
+    
+    background-color: dodgerblue; 
+    padding-left: 45px;
+    width: 100%;
+    word-spacing: 8em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    
+}
+
+
+h4.toolbar
+{
+    
+    background-color: dimgrey;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    
+}
+
+p.temp
+{
+    
+    background-color: black;
+    height: 125px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+p.cities
+{
+    
+    background-color: dimgrey;
+    padding-left: 12px;
+    word-spacing: 2em;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+
+body
+{
+    
+    font-size: 20px;
+    color: white;   
+    margin: 0px;
+    font-family: arial; 
+}
+
+footer 
+{
+    font-size: 10px;
+    color: black;
+    text-align: right;
+    padding-right: 10px;
+}
