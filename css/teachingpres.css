@@ -1,0 +1,38 @@
+html * {
+    
+    box-sizing: border-box;
+    
+}
+
+*:before, *:after{
+    
+    box-sizing: border-box;
+}
+
+.note1
+{
+  font-style: italic;  
+    
+}
+
+.note2
+{
+  font-style: italic;  
+    
+}
+.note3
+{
+  font-style: italic;  
+    
+}
+.note4
+{
+  font-style: italic;  
+    
+}
+
+body
+{
+    padding-left: 15px;
+    background-color: darkseagreen;
+}
