@@ -12,7 +12,7 @@ html * {
 }
 
 
-@media only screen 
+@media screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
@@ -25,6 +25,14 @@ html * {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
+
+#wrapper
+{
+    display:flex;
+    
+    
+}
+/*
 p.headlines
 {
     
@@ -113,6 +121,7 @@ p.topweatherstory
     margin-top: 0px;
     
 }
+*/
 
 body
 {
