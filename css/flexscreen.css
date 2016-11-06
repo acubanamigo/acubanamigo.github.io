@@ -107,30 +107,13 @@ p.hourly
     
 }
 
-p.sunimg
-{
-        
-  
-    
-}
-
-p.box2
+.header = "page-header"
 {
     
+   text-align: center;
+
     
 }
-
-p.temp
-{
-
-}
-
-p.headline
-{
-    
-    
-}
-
 
 p.link
 {
