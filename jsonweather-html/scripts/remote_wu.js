@@ -33,7 +33,7 @@ $(function () {
                 // Rounding the temp to the nearest integer
                 var temp = Math.round(data.current_observation.temp_f);
             
-                // Summar of the current conditions
+                // Summary of the current conditions
                 var summary = data.current_observation.weather;
                 var zipCode = data['location']['zip'];
                 var feelsLike = data.current_observation.feelslike_f;
