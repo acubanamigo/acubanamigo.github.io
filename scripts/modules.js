@@ -6,7 +6,3 @@ $(function(){
     $("#footer").load("../modules/footer.html");
 });
 
-    
-    
-    
-    

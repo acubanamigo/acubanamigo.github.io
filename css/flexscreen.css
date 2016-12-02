@@ -97,13 +97,35 @@ p.hourly
 
 }
 
+.temp
+{
+    font-family: monospace;
+    font-size: 30px;
+ 
+    
+}
+.hourly
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
 
+    
+}
 .container
 {
     display: flex;
     min-height:600px;    
     flex-direction: column;
     align-items: center;
+    border:5px solid #333;
+    margin:50px auto;
+    background: #FFF8DC;
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    padding:40px 20px;
+    
     
 }
 
@@ -115,20 +137,46 @@ p.hourly
     
 }
 
+#page-nav
+{
+    
+    min-height: 5px;    
+    flex-direction: column;
+    text-align: center;
+    border:5px solid #333;
+    margin:50px auto;
+    background: #FFF8DC;
+    margin-bottom: -25px;
+    max-width: px;
+    min-width: 25px;
+    padding:4px 2px;
+    
+}
 p.link
 {
     
    text-align: center; 
 }
 
-
+.box2
+{
+    font-size: 50px;
+    font-family: monospace
+    
+}
 body
 {
       font-family:avenir;
-      background-color:	#90EE90
+      background-color: #73ADFF;
       
 }	
 
+.wrapper
+{
+    
+    text-align: center;
+    
+}
 footer
 {
     text-align: right;
