@@ -61,6 +61,8 @@ function getData(lat, long) {
       $('#feelslike').text("Feels Like: " + feelsLike + "°F");
       $('#windspeed').text("Windspeed: " + windspeed + " mph");
       $('#visibility').text("Visibility: " + visibility + " mi");
+        
+    document.getElementById(searchResults).style.display = none;
     }
   });
 }
