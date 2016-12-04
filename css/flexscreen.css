@@ -97,9 +97,48 @@ p.hourly
 {
     font-family: monospace;
     font-size: 30px;
- 
-    
 }
+#h1
+{
+        
+}
+#currenttemp
+{
+        
+        
+}
+#high
+{
+        
+        
+        
+}
+#low
+{
+        
+        
+}
+#feelslike
+{
+        
+        
+}
+#windspeed
+{
+        
+        
+}
+#summary
+{
+        
+        
+}
+#visibility
+{
+        
+        
+}
+
 .hourly
 {
     text-align: center;
@@ -135,7 +174,7 @@ p.hourly
     border:5px solid #333;
     margin:50px auto;
     background: #FFF8DC;
-    margin-bottom: -25px;
+    margin-bottom: -50px;
     max-width: 1000px;
     min-width: 25px;
     padding:4px 2px;
