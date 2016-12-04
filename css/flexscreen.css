@@ -101,6 +101,7 @@ p.hourly
 #h1
 {
     font-size: 30px;
+    padding-top: 35px;
 }
 #currenttemp
 {
@@ -112,35 +113,35 @@ p.hourly
 {
         
     font-size: 30px;
-      
+    
 }
 #low
 {
     
     font-size: 30px;
-        
+    ;    
 }
 #feelslike
 {
     
     font-size: 30px;
-        
+       
         
 }
 #windspeed
 {
     font-size: 30px;  
-        
+       
 }
 #summary
 {
     font-size: 30px;
-        
+      
 }
 #visibility
 {
      font-size: 30px;   
-        
+      
 }
 
 .hourly
