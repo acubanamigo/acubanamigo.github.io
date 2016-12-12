@@ -12,12 +12,11 @@ function useData(data){
     $("#city").html(data)['city']);
     $("#state").html(data)['state']);
     $("#email").html(data)['email']);
-    
 }
-    
+
+
                 
             
-        }
 
   // A function for changing a string to TitleCase
   function toTitleCase(str){
