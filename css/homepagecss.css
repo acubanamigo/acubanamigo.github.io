@@ -202,16 +202,20 @@ html,body {
     max-width: 300px;
     padding-left: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .picOfMe
 {
     display: flex;
+    float: right;
+
     margin-top: 100px;
     min-width: 250px;
     max-width: 250px;
-    flex
-    
+    padding-bottom: 50px;
+    right: 500px;
+    bottom: 50px;
     
     
     
