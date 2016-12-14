@@ -169,7 +169,8 @@ html,body {
     
     
 }
-#container
+
+.container
 {
     position:relative;
 	margin:auto;
@@ -182,23 +183,122 @@ html,body {
 
 #mainContent
 {
-    position: relative;
-    text-align: center;
+    
+    text-align: left;
     background-color: #F8F8FF;
     height: 100%;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    margin-bottom: 0px;
-    text-align: center;
-    
+    padding-top: 20px;
     padding-left: 50px;
-    
+    padding-bottom: 50px;
     
     
 }
 
-#textContent
+#lessonContent
 {
+    
+    align-content: center;
+    text-align: center;
+    background-color: #F8F8FF;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-left: 50px;   
+}
+
+#aboutContent
+{
+
+    align-content: center;
+    background-color: #F8F8FF;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    
+    
+}
+
+#treatContent
+{
+    
+    background-color: #F8F8FF;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    text-align: left;
+    
+}
+
+#cookies
+{
+   
+   text-align: center;
+    
+}
+#activityContent
+{
+    align-content: center;
+    background-color: #F8F8FF;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+
+
+}
+
+#lessonContent a:link{ color: #00e;}
+#lessonContent a:hover{color: #06e;}
+#lessonContent a:visited {color: #551a8b}
+
+#lessonContent ul
+{
+    
+    list-style-type: none;
+    
+}
+
+#treatContent ul
+{
+    
+    list-style-type: none;
+    
+}
+
+#footer ul
+{
+    
+    list-style-type: none;
+
+    
+}
+
+#activityContent
+{
+    
+    list-style-type: none;
+
+    
+}
+
+#lessonTitle
+{
+    text-align: center;
+    padding-top: 50px;
+    background-color: #F8F8FF;
+    padding-left: 90px;
+    
+}
+
+.summary{
+    
+    
     position: static;
     min-width: 300px;
     max-width: 300px;
@@ -209,16 +309,22 @@ html,body {
 
 .picOfMe
 {
-    position:absolute;
+   
     margin-top: 100px;
     min-width: 250px;
     max-width: 250px;
     padding-bottom: 50px;
     right: 500px;
-    bottom: 0px;
+    bottom: 0px;  
     
     
-    
+}
+
+#lessonIdeas
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
     
 }
 #footer
@@ -227,8 +333,9 @@ html,body {
     position:relative;
     text-align: left;
     background-color: #F8F8FF;
-    margin-top:0px;
     padding-bottom: 20px;
+    padding-top: 30px;
+    
     
    
 }
@@ -236,7 +343,7 @@ html,body {
 body
 {
     
-    background-color: white;
+    background-color: #F8F8FF;
     font-family: 'Raleway', sans-serif;
     
 }
