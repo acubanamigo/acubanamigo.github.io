@@ -25,8 +25,7 @@ html,body {
 }
 
 @media screen 
-  and (min-device-width: 900px) 
-  and (max-device-width: 2000px) 
+  and (min-device-width: 900px)  
  { 
       .headMobile{
           
@@ -91,11 +90,16 @@ html,body {
 }
 
 .featured-video {
-    float: left;
+
     display: inline-block;
     width: 50%;
-    height: auto;
-    margin: 0 1em 1em 0;
+    height: 50%;
+    margin: 0 2em 2em 0;
+    margin-left: 50px;
+    float: none;
+    padding-top: 50px;
+    
+    
 }
 
 .featured-video+p {
@@ -252,8 +256,7 @@ html,body {
     padding-top: 20px;
     padding-bottom: 50px;
     margin-bottom: 0px;
-    padding-left: 20px;
-    text-align: left;
+    padding-left: 450px;
     
 }
 
@@ -261,18 +264,21 @@ html,body {
 {
    
    text-align: center;
+    padding-top: 50px;
+    
+
     
 }
 #activityContent
 {
     text-align: center;
-    
+    display: inline-block;
+    text-align: left;
     background-color: #F8F8FF;
-    height: 100%;
     padding-top: 5px;
     padding-bottom: 50px;
     margin-bottom: 0px;
-    padding-left: 50px;
+    padding-left: 10px;
     
     
 
@@ -281,7 +287,6 @@ html,body {
 .activityTitle
 {
     text-align: center;
-    
     padding-bottom: 20px;
     padding-left: 95px;
     padding-top: 100px;
@@ -331,7 +336,7 @@ html,body {
     
 }
 
-#summary{
+.summary{
     
     
     position: static;
