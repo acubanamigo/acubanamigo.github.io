@@ -27,7 +27,7 @@ html,body {
 @media screen 
   and (min-device-width: 900px) 
   and (max-device-width: 2000px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+ { 
       .headMobile{
           
           display: none;
@@ -116,6 +116,7 @@ html,body {
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 .navbar > .navigation {
 	position:relative;
@@ -330,7 +331,7 @@ html,body {
     
 }
 
-.summary{
+#summary{
     
     
     position: static;
