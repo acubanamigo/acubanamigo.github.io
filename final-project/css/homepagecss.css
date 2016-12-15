@@ -102,10 +102,33 @@ html,body {
     
 }
 
-.featured-video+p {
+.featured-video2+p {
     clear: both;
 }
 
+
+.featured-video2 {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.featured-video2 {
+
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    margin: 0 2em 2em 0;
+    margin-left: 50px;
+    float: none;
+    padding-top: 50px;
+    
+    
+}
+
+.featured-video+p {
+    clear: both;
+}
 .navbar {
 	position:relative;
 	width:100%;
